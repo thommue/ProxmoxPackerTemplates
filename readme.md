@@ -75,7 +75,7 @@ The proxmox_nodes can be a list of multiple ones like:
 
 ```
 
-So if you have filled out the config.json and placed it in the folder, where the ``deployment.py`` file in the folder is located,
+So if you have filled out the ``config.json`` and placed it in the folder, where the ``deployment.py`` file in the folder is located,
 you are good to go. Just run the skript ``deployment.py`` and the templates
 will be added to your proxmox node. You watch the progress direct in proxmox, there the VM should pop up and then under
 the console you can watch the progress.
