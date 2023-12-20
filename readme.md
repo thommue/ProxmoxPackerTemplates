@@ -23,11 +23,15 @@ Each version can be used identically, but there are some requirements for this b
 - a proxmox api-token
 - install the requirements.txt in your virtual env
 
-in the example config file, you have all needed infos, what you have to fill out (like cores, ram, etc...)
+In the example config file, you have all needed infos, what you have to fill out (like cores, ram, etc...). The 
+``template_folder`` part, is the part, where you can decide which version you want, like ubuntu-server-20-04. So if you 
+have chosen this folder then the folder name simply would be ``ubuntu-server-20-04``, then you will get a blank template
+from ubuntu 20-04, where you then afterwords can clone from.
 
 
 ```json
 {
+  "template_folder": "folder_of_this_repo_for_the_template_like_ubuntu-server-20-04",
   "proxmox_api_url": "<url_of_your_proxmox_node>",
   "proxmox_api_token_id": "<api_id>",
   "proxmox_api_token_secret": "<api_secret>",
