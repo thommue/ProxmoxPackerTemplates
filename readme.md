@@ -10,6 +10,7 @@ awesome upgrade!
 - Ubuntu Server 20.04 -- with: docker and docker-compose
 - Ubuntu Server 22.04 -- blank, fresh image
 - Ubuntu Server 22.04 -- with: docker and docker-compose
+- new ones will come
 
 If you wanna include other ones, feel free to clone or fork.
 Have fun with the templates
