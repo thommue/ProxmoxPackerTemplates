@@ -1,4 +1,4 @@
-# Packer Proxmox Cluster Wizard 🚀
+# Proxmox Template Wizard with Packer 🚀
 
 Transform your Proxmox cluster with our sleek Python script! Craft Packer templates across all nodes with ease and 
 direct the magic with a simple config file. Quick, efficient, and totally cool - your Proxmox setup just got an 
