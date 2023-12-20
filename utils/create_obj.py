@@ -9,6 +9,7 @@ class ProxmoxNode(BaseModel):
 
 
 class PackerConfig(BaseModel):
+    template_folder: str
     proxmox_api_url: str
     proxmox_api_token_id: str
     proxmox_api_token_secret: str
@@ -46,6 +47,7 @@ class Config:
                 )
             )
         return PackerConfig(
+            template_folder=self.config['template_folder'],
             proxmox_api_url=self.config['proxmox_api_url'],
             proxmox_api_token_id=self.config['proxmox_api_token_id'],
             proxmox_api_token_secret=self.config['proxmox_api_token_secret'],
