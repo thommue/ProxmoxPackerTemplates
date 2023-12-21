@@ -6,7 +6,7 @@ from utils.file_handling import create_temp_folder, handle_node_file_structure, 
 
 
 # get the config obj
-config_class = Config(path_to_config_json='config_test.json')
+config_class = Config(path_to_config_json='config.json')
 config = config_class.get_config_obj()
 
 # deployment skript
