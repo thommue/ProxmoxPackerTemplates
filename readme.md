@@ -8,9 +8,11 @@ awesome upgrade!
 
 - Ubuntu Server 20.04 -- blank, fresh image
 - Ubuntu Server 20.04 -- with: docker and docker-compose
+- Ubuntu Server 20.04 -- with: keepalive and haproxy and the corresponding config file
 - Ubuntu Server 22.04 -- blank, fresh image
 - Ubuntu Server 22.04 -- with: docker and docker-compose
 - Ubuntu Server 22.04 -- with: docker and docker-compose ready for terraform
+- Ubuntu Server 22.04 -- with: containerd, kubelet, kubeadm, kubectl -- perfect template to start with kubectl (v1.29)
 
 If you wanna include other ones, feel free to clone or fork.
 Have fun with the templates
